@@ -219,6 +219,20 @@ h1 {
   margin-bottom: 0.5em;
 }
 
+.restartBtn {
+  background-color: var(--color-gray-500);
+  width: fit-content;
+  padding: 8px 16px;
+}
+
+.restartBtn:hover {
+  background-color: var(--color-gray-700);
+}
+
+.restartBtn:active {
+  opacity: 0.8;
+}
+
 /*
   Keyframe animations
 */
